@@ -50,7 +50,7 @@ html {
     flex-grow: 1;
 }
 
-.main form button {
+button {
     font-size: 1.5rem;
     background-color: #fff;
     outline: 0;
@@ -60,7 +60,7 @@ html {
     transition: .2s ease-in-out;
 }
 
-.main form button:hover {
+button:hover {
     color: lightcoral;
 }
 
@@ -84,6 +84,10 @@ html {
     padding: 15px 0;
     font-size: 1rem;
     color: #595959;
+}
+
+.todo-item {
+    flex-grow: 1;
 }
 
 .main .todoList .clearAll {
