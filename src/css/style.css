@@ -86,6 +86,10 @@ button:hover {
     color: #595959;
 }
 
+i {
+    pointer-events: none;
+}
+
 .todo-item {
     flex-grow: 1;
 }
@@ -102,4 +106,13 @@ button:hover {
 
 .main .todoList .clearAll:hover {
     color: lightcoral;
+}
+
+.todo-list-item {
+    transition: all .3s ease-out;
+}
+
+.todo-list-item-fall {
+    transform: translateY(12rem) rotateZ(10deg);
+    opacity: 0;
 }
